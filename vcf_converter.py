@@ -202,6 +202,30 @@ class ConverterGUI:
     def run(self):
         self.root.mainloop()
 
+def remove_duplicates(contacts):
+    """
+    Remove duplicate contacts based on name and phone number.
+    Returns list of unique contacts.
+    """
+    seen = set()
+    unique_contacts = []
+    
+    for contact in contacts:
+        # Create tuple of name and phone for comparison
+        identity = (contact.name, contact.phone)
+        if identity not in seen:
+            seen.add(identity)
+            unique_contacts.append(contact)
+    
+    return unique_contacts
+
+def process_vcf(input_file):
+    contacts = parse_vcf(input_file)
+    # Add this line after parsing
+    contacts = remove_duplicates(contacts)
+    return contacts
+
+
 def main():
     if os.name == 'nt':
         os.system('chcp 65001')
