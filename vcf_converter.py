@@ -203,16 +203,15 @@ class ConverterGUI:
         self.root.mainloop()
 
 def remove_duplicates(contacts):
-    """
-    Remove duplicate contacts based on name and phone number.
-    Returns list of unique contacts.
-    """
     seen = set()
     unique_contacts = []
     
     for contact in contacts:
-        # Create tuple of name and phone for comparison
-        identity = (contact.name, contact.phone)
+        # Декодируем имя из UTF-8 если это байтовая строка
+        name = contact.name.decode('utf-8') if isinstance(contact.name, bytes) else contact.name
+        phone = contact.phone
+        
+        identity = (name, phone)
         if identity not in seen:
             seen.add(identity)
             unique_contacts.append(contact)
