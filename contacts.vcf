@@ -1,0 +1,80 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Andrej Ламели
+N:Ламели;Andrej;;;
+TEL;TYPE=CELL:+380931024874
+CATEGORIES:myContacts
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Gар  Д-18
+N:Д-18;Gар;;;
+TEL;TYPE=CELL:0970502661
+CATEGORIES:myContacts
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Hammersoft
+N:;Hammersoft;;;
+item1.TEL:380507525958
+item1.X-ABLabel:3,80508E+11
+item2.ADR:;;;Херсон;;;;Херсон
+item2.X-ABLabel:Херсон
+CATEGORIES:myContacts
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Kiriaki
+N:;Kiriaki;;;
+TEL;TYPE=CELL:+00306936596576
+CATEGORIES:myContacts
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Анатолий Федоренко Дознаватель
+N:Федоренко Дознаватель;Анатолий ;;;
+TEL;TYPE=CELL:+380 95 611 4631
+CATEGORIES:myContacts
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Анатолий Сантехник
+N:Сантехник;Анатолий;;;
+TEL;TYPE=CELL:+380665907067
+CATEGORIES:myContacts
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Егор Укр
+N:Укр;Егор;;;
+TEL;TYPE=CELL:638056196
+CATEGORIES:myContacts
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Евгений Блаблакар
+N:;Евгений Блаблакар;;;
+TEL;TYPE=CELL:380677723635
+CATEGORIES:myContacts
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Рома Дельта М
+N:М;Рома;Дельта;;
+TEL;TYPE=CELL:+380660079398
+CATEGORIES:myContacts
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Слава УКР
+N:УКР;Слава;;;
+TEL;TYPE=CELL:0502637505
+CATEGORIES:myContacts
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Сто Леша Ревуцкого
+N:Ревуцкого;Сто;Леша;;
+TEL;TYPE=CELL:067 422 9050
+CATEGORIES:myContacts
+END:VCARD
