@@ -1,6 +1,20 @@
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-.env
-venv/
+*.so
+.Python
+env/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Specific to your project
+*.vcf
+exports/
+0.3/
+dist/
+
+# IDE
 .idea/
+.vscode/
